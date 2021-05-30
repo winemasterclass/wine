@@ -5,8 +5,8 @@
         <div class="flex justify-between h-16">
           <div class="flex">
             <div class="flex-shrink-0 flex items-center">
-              <img class="block lg:hidden h-8 w-auto" src="src/assets/images/brand/Wine-Masterclass-Icon-256.png" alt="Workflow" />
-              <img class="hidden lg:block h-8 w-auto" src="src/assets/images/brand/Wine-Masterclass-logo.png" alt="Workflow" />
+              <img class="block lg:hidden h-8 w-auto" src="@/assets/images/brand/Wine-Masterclass-Icon-256.png" alt="Workflow" />
+              <img class="hidden lg:block h-8 w-auto" src="@/assets/images/brand/Wine-Masterclass-logo.png" alt="Workflow" />
             </div>
             <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
               <router-link v-for="item in navigation" :key="item.name" :to="item.href" :class="[item.current ? 'border-purple-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700', 'inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">
