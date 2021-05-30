@@ -1,8 +1,10 @@
 <template>
-  <ul>
-    <li v-for="Class in Classes" :key="Class.id" >
+  <ul class="space-y-3">
+    <li v-for="Class in Classes" :key="Class.id">
       <router-link :to="{ name: 'Class', params: { slug: Class.slug}}">
+        <div class="bg-white shadow overflow-hidden rounded-md px-6 py-4">
         {{ Class.title }}
+        </div>
       </router-link>
     </li>
   </ul>
