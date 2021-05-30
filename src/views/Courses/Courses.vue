@@ -1,6 +1,4 @@
 <template>
-  <TheNavigation />
-  Courses
   <ul>
     <li v-for="Course in Courses" :key="Course.id" >
       <router-link :to="{ name: 'Course', params: { slug: Course.slug}}">
@@ -12,10 +10,8 @@
 
 <script>
 import { defineComponent } from 'vue'
-import TheNavigation from '@/components/TheNavigation.vue'
 
 export default defineComponent({
-  components: { TheNavigation },
   setup() {
     return {
       Courses,
