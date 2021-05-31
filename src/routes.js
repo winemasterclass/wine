@@ -1,7 +1,7 @@
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
-import Classes from './views/Classes/Classes.vue'
-import Class from './views/Classes/Class.vue'
+import Videos from './views/Videos/Videos.vue'
+import Video from './views/Videos/Video.vue'
 import Register from './views/Register.vue'
 import Courses from './views/Courses/Courses.vue'
 import Course from './views/Courses/Course.vue'
@@ -27,25 +27,25 @@ export const routes = [
     // component: () => import('./views/Contact.vue')
   },
   {
-    path: '/classes',
-    name: 'Classes',
-    meta: { title: 'Classes' },
-    component: Classes,
+    path: '/videos',
+    name: 'Videos',
+    meta: { title: 'Videos' },
+    component: Videos,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    // component: () => import('./views/Classes/Classes.vue')
+    // component: () => import('./views/Videos/Videos.vue')
   },
   {
-    path: '/class/:slug',
-    name: 'Class',
-    meta: { title: 'Class' },
-    component: Class,
+    path: '/video/:slug',
+    name: 'Video',
+    meta: { title: 'Video' },
+    component: Video,
     props: true
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    // component: () => import('./views/Classes/Class.vue')
+    // component: () => import('./views/Videos/Video.vue')
   },
   {
     path: '/register/:slug',

@@ -1,11 +1,11 @@
 <template>
-<TheNavigation />
+  <TheNavigation />
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <ul class="space-y-3">
-      <li v-for="Course in Courses" :key="Course.id">
-        <router-link :to="{ name: 'Course', params: { slug: Course.slug } }">
+      <li v-for="Video in Videos" :key="Video.id">
+        <router-link :to="{ name: 'Video', params: { slug: Video.slug } }">
           <div class="bg-white shadow overflow-hidden rounded-md px-6 py-4">
-            {{ Course.title }}
+            {{ Video.title }}
           </div>
         </router-link>
       </li>
@@ -20,30 +20,30 @@
   export default defineComponent({
     setup() {
       return {
-        Courses,
+        Videos,
       };
     },
     components: { TheNavigation },
   });
 
-  const Courses = [
+  const Videos = [
     {
       id: 1,
-      title: "Course One",
-      slug: "course-one",
-      summary: "This is course one.",
+      title: "Video One",
+      slug: "video-one",
+      summary: "This is video one.",
     },
     {
       id: 2,
-      title: "Course Two",
-      slug: "course-two",
-      summary: "This is course two.",
+      title: "Video Two",
+      slug: "video-two",
+      summary: "This is video two.",
     },
     {
       id: 3,
-      title: "Course Three",
-      slug: "course-three",
-      summary: "This is course three.",
+      title: "Video Three",
+      slug: "video-three",
+      summary: "This is video three.",
     },
   ];
 </script>
