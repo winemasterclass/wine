@@ -2,10 +2,11 @@ import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import Videos from './views/Videos/Videos.vue'
 import Video from './views/Videos/Video.vue'
-import Register from './views/Register.vue'
 import Courses from './views/Courses/Courses.vue'
 import Course from './views/Courses/Course.vue'
 import NotFound from './views/NotFound.vue'
+
+import Register1 from './views/Register/Register1.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 
@@ -48,16 +49,6 @@ export const routes = [
     // component: () => import('./views/Videos/Video.vue')
   },
   {
-    path: '/register/:slug',
-    name: 'Register',
-    meta: { title: 'Register' },
-    component: Register,
-    // example of route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import('./views/Register.vue')
-  },
-  {
     path: '/courses',
     name: Courses,
     meta: { title: 'Courses' },
@@ -77,6 +68,17 @@ export const routes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     // component: () => import('./views/Courses/Course.vue')
+  },
+  {
+    path: '/register/wine-tasting-crash-course',
+    name: 'Wine Tasting Crash Course',
+    meta: { title: 'Wine Tasting Crash Course' },
+    component: Register1,
+    props: true
+    // example of route level code-splitting
+    // this generates a separate chunk (About.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    // component: () => import('./views/Register/Register1.vue')
   },
   { 
     path: '/:path(.*)',

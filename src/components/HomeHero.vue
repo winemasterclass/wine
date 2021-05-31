@@ -75,8 +75,8 @@
                 sm:gap-5
               "
             >
-              <a
-                href="#"
+              <router-link
+                to="/register/wine-tasting-crash-course"
                 class="
                   flex
                   items-center
@@ -95,7 +95,7 @@
                 "
               >
                 Start Learning Now
-              </a>
+              </router-link>
               <a
                 href="#"
                 class="
