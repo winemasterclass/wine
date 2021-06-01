@@ -6,7 +6,7 @@
   import { defineComponent } from "vue";
   import ListVideos from "@/components/ListVideos.vue";
 
-  export default defineComponent({
+  export default {
     components: { ListVideos },
-  });
+  };
 </script>

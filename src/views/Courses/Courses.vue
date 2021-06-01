@@ -6,7 +6,7 @@
   import { defineComponent } from "vue";
   import ListCourses from "@/components/ListCourses.vue";
 
-  export default defineComponent({
+  export default {
     components: { ListCourses },
-  });
+  };
 </script>
