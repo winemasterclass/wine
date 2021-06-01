@@ -57,14 +57,13 @@ const courses = [
     name: 'Become A Wine Expert Course',
     slug: 'wine-expert-course',
     price: '$497 USD',
-    imageUrl:
-      '/src/assets/images/courses/Wine-Expert-Course-Thumbnail.jpg',
+    imageUrl: "src/assets/images/courses/Wine-Expert-Course-Thumbnail.jpg",
   },
   {
     name: 'Wine Tasting Crash Course',
     slug: 'wine-tasting-crash-course',
-    imageUrl:
-      '/src/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg',
+    price: 'FREE',
+    imageUrl: "src/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg",
   },
   // More courses...
 ]
