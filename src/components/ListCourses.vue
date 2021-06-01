@@ -30,7 +30,7 @@
             >
             <div class="space-y-4">
               <div class="aspect-w-16 aspect-h-9">
-                <img class="object-cover shadow-2xl rounded-xl" :src="course.imageUrl" alt="" />
+                <img class="object-cover shadow-2xl rounded-xl" v-bind:src="course.imageUrl" alt="" />
               </div>
 
               <div class="space-y-2">
