@@ -7,7 +7,7 @@
           <img
             class="h-full w-full filter saturate-0 object-cover"
             src="@/assets/images/home/Wine-Masterclass-Learn-About-Wine-Online.jpg"
-            alt="People working on laptops"
+            alt="Wine Masterclass - Learn About Wine Online"
           />
           <div
             class="

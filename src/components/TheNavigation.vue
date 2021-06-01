@@ -28,12 +28,12 @@
             <img
               class="block lg:hidden h-8 w-auto"
               src="@/assets/images/brand/Wine-Masterclass-logo.png"
-              alt="Workflow"
+              alt="Wine Masterclass Logo"
             />
             <img
               class="hidden lg:block h-8 w-auto"
               src="@/assets/images/brand/Wine-Masterclass-logo.png"
-              alt="Workflow"
+              alt="Wine Masterclass Logo"
             />
           </div>
           <div class="hidden md:ml-6 md:flex md:space-x-8">
