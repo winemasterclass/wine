@@ -30,7 +30,7 @@
             >
             <div class="space-y-4">
               <div class="aspect-w-16 aspect-h-9">
-                <img class="object-cover shadow-2xl rounded-xl" :src="require(video.imageUrl)" alt="" />
+                <img class="object-cover shadow-2xl rounded-xl" :src="video.imageUrl" alt="" />
               </div>
 
               <div class="space-y-2">
@@ -56,19 +56,19 @@ const videos = [
     title: 'Exploring the Universe of Pét-Nat! (Pétillant Naturel)',
     slug: 'exploring-the-universe-of-pet-nat',
     imageUrl:
-      'src/assets/images/videos/Video-1-Pet-Nat.jpeg',
+      '/src/assets/images/videos/Video-1-Pet-Nat.jpeg',
   },
   {
     title: 'Orange Wine and Stoic Philosophy... The Perfect Pairing? (Memento Mori)',
     slug: 'orange-wine-and-stoic-philosophy',
     imageUrl:
-      'src/assets/images/videos/Video-2-Momento-Mori.jpeg',
+      '/src/assets/images/videos/Video-2-Momento-Mori.jpeg',
   },
   {
     title: 'Australian Prosecco... Is it really Prosecco? (Controversial)',
     slug: 'australian-prosecco-is-it-really-prosecco',
     imageUrl:
-      'src/assets/images/videos/Video-3-Aussie-Prosecco.jpeg',
+      '/src/assets/images/videos/Video-3-Aussie-Prosecco.jpeg',
   },
   // More videos...
 ]

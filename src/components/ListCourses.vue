@@ -30,7 +30,7 @@
             >
             <div class="space-y-4">
               <div class="aspect-w-16 aspect-h-9">
-                <img class="object-cover shadow-2xl rounded-xl" :src="require(course.imageUrl)" alt="" />
+                <img class="object-cover shadow-2xl rounded-xl" :src="course.imageUrl" alt="" />
               </div>
 
               <div class="space-y-2">
@@ -58,13 +58,13 @@ const courses = [
     slug: 'wine-expert-course',
     price: '$497 USD',
     imageUrl:
-      'src/assets/images/courses/Wine-Expert-Course-Thumbnail.jpg',
+      '/src/assets/images/courses/Wine-Expert-Course-Thumbnail.jpg',
   },
   {
     name: 'Wine Tasting Crash Course',
     slug: 'wine-tasting-crash-course',
     imageUrl:
-      'src/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg',
+      '/src/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg',
   },
   // More courses...
 ]
