@@ -1,15 +1,11 @@
+// Website Pages
 import Home from './views/Home.vue'
-import Contact from './views/Contact.vue'
-import Videos from './views/Videos/Videos.vue'
-import Video from './views/Videos/Video.vue'
-import Courses from './views/Courses/Courses.vue'
-import Course from './views/Courses/Course.vue'
 import NotFound from './views/NotFound.vue'
 
-import Register1 from './views/Register/Register1.vue'
-
+// Router Import
 /** @type {import('vue-router').RouterOptions['routes']} */
 
+// Router Configuration
 export const routes = [
   { 
     path: '/', 

@@ -163,3 +163,9 @@
     },
   };
 </script>
+
+<style scoped>
+.router-link-exact-active {
+  color: rgba(24, 24, 27, var(--tw-text-opacity));
+}
+</style>
