@@ -1,5 +1,4 @@
 <template>
-<TheNavigation />
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative bg-white rounded-2xl overflow-hidden shadow-2xl">
         <h2 class="sr-only">Contact us</h2>
@@ -431,10 +430,9 @@
 
 <script>
   import { defineComponent } from "vue";
-  import TheNavigation from "@/components/TheNavigation.vue";
   import { MailIcon, PhoneIcon } from "@heroicons/vue/outline";
 
   export default defineComponent({
-    components: { TheNavigation, MailIcon, PhoneIcon  },
+    components: { MailIcon, PhoneIcon  },
   });
 </script>

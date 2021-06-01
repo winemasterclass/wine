@@ -47,7 +47,7 @@ export const routes = [
   },
   {
     path: '/courses',
-    name: Courses,
+    name: 'Courses',
     meta: { title: 'Courses' },
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
@@ -72,7 +72,10 @@ export const routes = [
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/Register/Register1.vue')
+    component: () => import('./views/Register/Register1.vue'),
+    meta: {
+      hideNavbar: true,
+     }
   },
   { 
     path: '/:path(.*)',

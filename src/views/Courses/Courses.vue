@@ -1,5 +1,4 @@
 <template>
-<TheNavigation />
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <ul class="space-y-3">
       <li v-for="Course in Courses" :key="Course.id">
@@ -15,7 +14,6 @@
 
 <script>
   import { defineComponent } from "vue";
-  import TheNavigation from "@/components/TheNavigation.vue";
 
   export default defineComponent({
     setup() {
@@ -23,7 +21,6 @@
         Courses,
       };
     },
-    components: { TheNavigation },
   });
 
   const Courses = [
