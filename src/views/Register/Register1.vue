@@ -5,7 +5,7 @@
         <div>
           <img class="h-12 w-auto" src="@/assets/images/brand/Wine-Masterclass-Icon-256.png" alt="Wine Masterclass Logo" />
           <div class="lg:hidden mt-6 aspect-w-16 aspect-h-9">
-            <img class="object-cover shadow-lg rounded-lg" src="https://images.unsplash.com/photo-1548957538-84e1176070d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3225&q=80" alt="" />
+            <img class="object-cover shadow-lg rounded-lg" src="@/assets/images/register/Wine-Tasting-Crash-Course.jpg" alt="Wine Tasting Crash Course" />
             </div>
             <h2 class="my-6 text-3xl font-extrabold text-gray-900">
             Free Wine Tasting Crash Course
@@ -67,7 +67,7 @@
       </div>
     </div>
     <div class="hidden lg:block relative w-0 flex-1">
-      <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1548957538-84e1176070d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3225&q=80" alt="" />
+      <img class="absolute inset-0 h-full w-full object-cover" src="@/assets/images/register/Wine-Tasting-Crash-Course.jpg" alt="Wine Tasting Crash Course" />
     </div>
   </div>
 </template>

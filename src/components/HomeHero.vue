@@ -6,7 +6,7 @@
         <div class="absolute inset-0">
           <img
             class="h-full w-full filter saturate-0 object-cover"
-            src="https://images.unsplash.com/photo-1573062337052-54ad1468bb5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
+            src="@/assets/images/home/Wine-Masterclass-Learn-About-Wine-Online.jpg"
             alt="People working on laptops"
           />
           <div
