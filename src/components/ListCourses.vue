@@ -63,7 +63,7 @@ const courses = [
     name: 'Wine Tasting Crash Course',
     slug: 'wine-tasting-crash-course',
     price: 'FREE',
-    imageUrl: "@/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg",
+    imageUrl: '@/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg',
   },
   // More courses...
 ]
