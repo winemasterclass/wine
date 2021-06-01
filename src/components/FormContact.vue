@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-300" leave-from="opacity-100" leave-to="opacity-0">
+    <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-100" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-100" leave-from="opacity-100" leave-to="opacity-0">
       <div class="relative bg-white rounded-2xl overflow-hidden shadow-2xl">
         <h2 class="sr-only">Contact us</h2>
         <div class="grid grid-cols-1 lg:grid-cols-3">
@@ -134,7 +134,6 @@
 </template>
 
 <script>
-  import { defineComponent } from "vue";
   import { MailIcon, PhoneIcon } from "@heroicons/vue/outline";
   import { ref } from "vue";
   import { TransitionRoot } from "@headlessui/vue";

@@ -1,5 +1,5 @@
 <template>
-  <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-300" leave-from="opacity-100" leave-to="opacity-0">
+  <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-100" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-100" leave-from="opacity-100" leave-to="opacity-0">
     <Disclosure as="nav" class="" v-slot="{ open }">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <div class="flex justify-between h-16">
@@ -18,7 +18,7 @@
             </div>
             <div class="hidden md:ml-6 md:flex md:space-x-8">
               <!-- Current: "border-purple-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-              <router-link v-for="item in navigation" :key="item.name" :to="item.href" class="border-transparent text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">
+              <router-link v-for="item in navigation" :key="item.name" :to="item.path" class="border-transparent text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">
                 {{ item.name }}
               </router-link>
             </div>
@@ -37,7 +37,7 @@
         <DisclosureButton as="div">
           <div class="pt-2 pb-3 space-y-1">
             <!-- Current: "bg-purple-50 border-purple-500 text-purple-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-            <router-link v-for="item in navigation" :key="item.name" :to="item.href" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
+            <router-link v-for="item in navigation" :key="item.name" :to="item.path" class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6">
               {{ item.name }}
             </router-link>
           </div>
@@ -54,10 +54,10 @@
   import { TransitionRoot } from "@headlessui/vue";
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Courses", href: "/courses" },
-    { name: "Videos", href: "/videos" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", path: "/" },
+    { name: "Courses", path: "/courses" },
+    { name: "Videos", path: "/videos" },
+    { name: "Contact", path: "/contact" },
   ];
 
   export default {

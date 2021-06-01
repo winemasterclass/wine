@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-white flex">
     <div class="flex-1 flex flex-col justify-center pt-8 pb-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
-      <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-300" leave-from="opacity-100" leave-to="opacity-0">
+      <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-100" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-100" leave-from="opacity-100" leave-to="opacity-0">
         <div class="mx-auto w-full max-w-sm lg:w-96">
           <div>
             <img class="h-12 w-auto" src="@/assets/images/brand/Wine-Masterclass-Icon-256.png" alt="Wine Masterclass Logo" />
@@ -50,8 +50,8 @@
         </div>
       </TransitionRoot>
     </div>
-    <div class="hidden lg:block relative w-0 flex-1 bg-black">
-      <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-300" leave-from="opacity-100" leave-to="opacity-0">
+    <div class="hidden lg:block relative w-0 flex-1 bg-gray-50">
+      <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-100" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-100" leave-from="opacity-100" leave-to="opacity-0">
         <img class="absolute inset-0 h-full w-full object-cover" src="@/assets/images/register/Wine-Tasting-Crash-Course.jpg" alt="Wine Tasting Crash Course" />
       </TransitionRoot>
     </div>

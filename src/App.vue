@@ -12,7 +12,6 @@
 <style scoped></style>
 
 <script>
-  import { defineComponent } from "vue";
   import TheNavigation from "@/components/TheNavigation.vue";
 
   export default {

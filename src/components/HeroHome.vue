@@ -1,6 +1,6 @@
 <template>
   <div class="relative pb-12 lg:pb-24">
-    <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-300" leave-from="opacity-100" leave-to="opacity-0">
+    <TransitionRoot appear :show="isShowing" enter="transition-all ease-in duration-100" enter-from="opacity-0" enter-to="opacity-100" leave="transition-all ease-in duration-100" leave-from="opacity-100" leave-to="opacity-0">
       <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-50" />
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="relative shadow-2xl rounded-2xl overflow-hidden">
