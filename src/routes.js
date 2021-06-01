@@ -2,6 +2,9 @@
 import Home from './views/Home.vue'
 import NotFound from './views/NotFound.vue'
 
+// Landing Pages
+import Register1 from './views/Register/Register1.vue'
+
 // Router Import
 /** @type {import('vue-router').RouterOptions['routes']} */
 
@@ -65,10 +68,11 @@ export const routes = [
     name: 'Wine Tasting Crash Course',
     meta: { title: 'Wine Tasting Crash Course' },
     props: true,
+    component: Register1,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import('./views/Register/Register1.vue'),
+    // component: () => import('./views/Register/Register1.vue'),
     meta: {
       hideNavbar: true,
      }
