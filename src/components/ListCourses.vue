@@ -6,10 +6,10 @@
           <TransitionRoot
               appear
               :show="isShowing"
-              enter="transition-all ease-in-out duration-300"
+              enter="transition-all ease-in duration-300"
               enter-from="opacity-0"
               enter-to="opacity-100"
-              leave="transition-all ease-in-out duration-300"
+              leave="transition-all ease-in duration-300"
               leave-from="opacity-100"
               leave-to="opacity-0"
             >
@@ -21,16 +21,16 @@
             <TransitionRoot
               appear
               :show="isShowing"
-              enter="transition-all ease-in-out duration-300"
+              enter="transition-all ease-in duration-300"
               enter-from="opacity-0"
               enter-to="opacity-100"
-              leave="transition-all ease-in-out duration-300"
+              leave="transition-all ease-in duration-300"
               leave-from="opacity-100"
               leave-to="opacity-0"
             >
             <div class="space-y-4">
               <div class="aspect-w-16 aspect-h-9">
-                <img class="object-cover shadow-2xl rounded-xl" v-bind:src="course.imageUrl" alt="" />
+                <img class="object-cover shadow-2xl rounded-xl" :src="require(course.imageUrl)" alt="" />
               </div>
 
               <div class="space-y-2">
@@ -58,13 +58,13 @@ const courses = [
     slug: 'wine-expert-course',
     price: '$497 USD',
     imageUrl:
-      '@/assets/images/courses/Wine-Expert-Course-Thumbnail.jpg',
+      'src/assets/images/courses/Wine-Expert-Course-Thumbnail.jpg',
   },
   {
     name: 'Wine Tasting Crash Course',
     slug: 'wine-tasting-crash-course',
     imageUrl:
-      '@/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg',
+      'src/assets/images/courses/Wine-Tasting-Crash-Course-Thumbnail.jpg',
   },
   // More courses...
 ]

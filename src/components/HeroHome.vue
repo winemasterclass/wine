@@ -3,10 +3,10 @@
     <TransitionRoot
               appear
               :show="isShowing"
-              enter="transition-all ease-in-out duration-300"
+              enter="transition-all ease-in duration-300"
               enter-from="opacity-0"
               enter-to="opacity-100"
-              leave="transition-all ease-in-out duration-300"
+              leave="transition-all ease-in duration-300"
               leave-from="opacity-100"
               leave-to="opacity-0"
     >
