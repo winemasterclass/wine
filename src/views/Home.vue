@@ -1,14 +1,16 @@
 <template>
-  <HomeHero />
-  <HomeCourses />
+  <HeroHome />
+  <ListCourses />
+  <ListVideos />
 </template>
 
 <script>
   import { defineComponent } from "vue";
-  import HomeHero from "@/components/HomeHero.vue";
-  import HomeCourses from "@/components/HomeCourses.vue";
+  import HeroHome from "@/components/HeroHome.vue";
+  import ListCourses from "@/components/ListCourses.vue";
+  import ListVideos from "@/components/ListVideos.vue";
 
   export default defineComponent({
-    components: { HomeHero, HomeCourses },
+    components: { HeroHome, ListCourses, ListVideos },
   });
 </script>
