@@ -21,7 +21,6 @@ export const routes = [
     path: '/contact',
     name: 'Contact',
     meta: { title: 'Contact' },
-    component: Contact,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -31,7 +30,6 @@ export const routes = [
     path: '/videos',
     name: 'Videos',
     meta: { title: 'Videos' },
-    component: Videos,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -41,7 +39,6 @@ export const routes = [
     path: '/video/:slug',
     name: 'Video',
     meta: { title: 'Video' },
-    component: Video,
     props: true,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
@@ -52,7 +49,6 @@ export const routes = [
     path: '/courses',
     name: Courses,
     meta: { title: 'Courses' },
-    component: Courses,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -62,7 +58,6 @@ export const routes = [
     path: '/course/:slug',
     name: 'Course',
     meta: { title: 'Course' },
-    component: Course,
     props: true,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
@@ -73,7 +68,6 @@ export const routes = [
     path: '/register/wine-tasting-crash-course',
     name: 'Wine Tasting Crash Course',
     meta: { title: 'Wine Tasting Crash Course' },
-    component: Register1,
     props: true,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
