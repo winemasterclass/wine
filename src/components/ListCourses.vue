@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50">
+  <div class="bg-gray-50" data-ms-content="members-only">
     <div class="mx-auto pb-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:pb-24">
       <div class="space-y-12">
         <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
