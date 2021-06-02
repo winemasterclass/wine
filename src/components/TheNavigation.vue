@@ -25,7 +25,7 @@
           </div>
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <a href="#" type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-purple-600 bg-white shadow hover:bg-gray-50 focus:outline-none">
+              <a href="#/ms/login" type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-purple-600 bg-white shadow hover:bg-gray-50 focus:outline-none">
                 <span>Login</span>
               </a>
             </div>
